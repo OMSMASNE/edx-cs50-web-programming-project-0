@@ -1,0 +1,45 @@
+#abc {
+  font-size: 50px;
+  color: cyan;
+}
+
+#creator {
+  color: #11ff88;
+  font-weight: bold;
+}
+
+#starting {
+  color: #11ff88;
+  text-align: center;
+}
+
+span h2 {
+  text-align: left;
+  color: #7001d8;
+}
+
+span#flyingFlex .container {
+  display: flex;
+}
+
+span#flyingFlex .container {
+  flex-wrap: wrap;
+}
+span#flyingFlex .container div {
+  background-color: #11ff88;
+  color: black;
+  font-size: 20px;
+  margin: 20px;
+  padding: 20px;
+  width: 200px;
+  border: 2px solid yellow;
+}
+
+.row > div {
+  color: black;
+  padding: 1%;
+  background-color: #11ff88;
+  border: 2px solid yellow;
+}
+
+/*# sourceMappingURL=dynamic.css.map */

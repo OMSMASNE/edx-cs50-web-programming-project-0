@@ -1,0 +1,95 @@
+/*
+    Copyright (C) 2019 OM SANTOSHKUMAR MASNE. All Rights Reserved.
+    Licensed under the GNU Affero General Public License v3.0 only (AGPL-3.0-only) license.
+    See License.txt in the project root for license information.
+*/
+
+blockquote
+{
+    text-align:center;
+}
+
+span.newLink a:link
+{
+    color: rgb(126, 243, 184);
+    text-decoration: none;
+}
+  
+span.newLink a:visited
+{
+    color: rgb(244, 248, 3);
+    text-decoration: none;
+}
+  
+span.newLink a:active
+{
+    color: rgb(0, 255, 242);
+    text-decoration: underline;
+}
+
+@media (max-width:500px)
+{
+    #imageAI
+    {
+        width: 60%;
+        height: 40%;
+    }
+}
+
+hr.new
+{
+    border-top: 5px dashed green;
+}
+
+ul > li
+{
+    color: yellow;
+    text-align: left;
+}
+
+ol > li
+{
+    color: rgb(44, 209, 38);
+    text-align: left;
+    font-size: 1.4em;
+}
+
+table, th, td
+{
+    border: 4px solid rgb(10, 100, 245);
+    border-collapse: collapse;
+}
+
+table#striped th
+{
+    background-color: rgb(17, 255, 136);
+    color: rgb(255, 20, 20);
+}
+
+table#striped tr:nth-child(even)
+{
+    background-color: yellow;
+    color: black;
+}
+
+table#striped tr:nth-child(odd)
+{
+    background-color: pink;
+    color: black;
+}
+
+.footer
+{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: grey;
+    text-align: center;
+}
+
+.imagePage
+{
+    color: yellow;
+}
